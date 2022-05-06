@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Yellow</title>
+        <!-- Render all Elements Normally -->
+        <link rel="stylesheet" href="css/normalize.css" />
+        <!-- Font Awesome Librari -->
+        <link rel="stylesheet" href="css/all.min.css" />
+        <!-- Main Template CSS File  -->
+        <link rel="stylesheet" href="css/yellow.css" />
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <!-- Start Header -->
+        <header>
+            <div class="container">
+                <a href="#"><img src="images/logo-o.png" alt="logo" /></a>
+                <i class="close fas fa-times"></i>
+                <a href="#" class="toggle"><i class="fas fa-bars"></i></a>
+                <ul>
+                    <li><a href="#landing">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </header>
+        <!-- End Header -->
+        <!-- Start Landing -->
+        <div class="landing" id="landing">
+            <div class="text">
+                <h1>
+                    <del><i>Welcome To Our Studio!</i></del>
+                </h1>
+                <p>It's Nice To Meet You</p>
+            </div>
+        </div>
+        <!-- End Landing -->
+        <!-- Start Services -->
+        <div class="services" id="services">
+            <div class="container">
+                <div class="main-heading">
+                    <h2>Services</h2>
+                    <p>
+                        Curabitur arcu erat, accumsan id imperdiet et, porttitor
+                        at sem
+                    </p>
+                </div>
+                <div class="content">
+                    <div class="box">
+                        <i class="fas fa-magic fa-3x"></i>
+                        <h3>Tell Us Your Idea</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Consequatur dignissimos repellendus pariatur
+                        </p>
+                    </div>
+                    <div class="box">
+                        <i class="far fa-gem fa-3x"></i>
+                        <h3>We Will Do All The Work</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Consequatur dignissimos repellendus pariatur
+                        </p>
+                    </div>
+                    <div class="box">
+                        <i class="fas fa-globe-asia fa-3x"></i>
+                        <h3>Your Product is Worldwide</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Consequatur dignissimos repellendus pariatur
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Services -->
+        <!-- Start Portfolio -->
+        <div class="portfolio" id="portfolio">
+            <div class="container">
+                <div class="main-heading">
+                    <h2>Our Portfolio</h2>
+                    <p>
+                        Curabitur arcu erat, accumsan id imperdiet et, porttitor
+                        at sem
+                    </p>
+                </div>
+                <ul class="lists">
+                    <li class="active" data-cat=".all">All</li>
+                    <li data-cat=".drama">Drama</li>
+                    <li data-cat=".shonen">Shonen</li>
+                    <li data-cat=".melancholy">melancholy</li>
+                </ul>
+                <div class="img-container">
+                    <div class="box all shonen">
+                        <img src="images/boku.jpg" alt="" />
+                        <div class="caption">
+                            <h3>Opening</h3>
+                            <p>Boku No Hero Academia</p>
+                        </div>
+                        <audio
+                            class="music"
+                            src="audio/Boku no Hero Academia.mp3"
+                            type="audio/mbeg"
+                            controls
+                            loop
+                        ></audio>
+                    </div>
+                    <div class="box all melancholy">
+                        <img src="images/fullmetal.jpg" alt="" />
+                        <div class="caption">
+                            <h3>Opening</h3>
+                            <p>Fullmetal</p>
+                        </div>
+                        <audio
+                            class="music"
+                            src="audio/fullmetal-01.mp3"
+                            type="audio/mbeg"
+                            controls
+                            loop
+                        ></audio>
+                    </div>
+                    <div class="box all drama">
+                        <img src="images/kakashi.jpg" alt="" />
+                        <div class="caption">
+                            <h3>Opening</h3>
+                            <p>Naruto Shippuden</p>
+                        </div>
+                        <audio
+                            class="music"
+                            src="audio/Naruto Shippuden.mp3"
+                            type="audio/mbeg"
+                            controls
+                            loop
+                        ></audio>
+                    </div>
+                    <div class="box all melancholy">
+                        <img src="images/fullmetal-01.jpg" alt="" />
+                        <div class="caption">
+                            <h3>Opening</h3>
+                            <p>Fullmetal-2</p>
+                        </div>
+                        <audio
+                            class="music"
+                            src="audio/fullmetal-02.mp3"
+                            type="audio/mbeg"
+                            controls
+                            loop
+                        ></audio>
+                    </div>
+                    <div class="box all melancholy">
+                        <img src="images/Tokyo ghoul.jpeg" alt="" />
+                        <div class="caption">
+                            <h3>Opening</h3>
+                            <p>Tokyo Ghoul</p>
+                        </div>
+                        <audio
+                            class="music"
+                            src="audio/Tokyo Ghoul.mp3"
+                            type="audio/mbeg"
+                            controls
+                            loop
+                        ></audio>
+                    </div>
+                    <div class="box all shonen">
+                        <img src="images/death note.jpeg" alt="" />
+                        <div class="caption">
+                            <h3>Opening</h3>
+                            <p>Death Note</p>
+                        </div>
+                        <audio
+                            class="music"
+                            src="audio/death note.mp3"
+                            type="audio/mbeg"
+                            controls
+                            loop
+                        ></audio>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Portfolio -->
+        <!-- Start About Us -->
+        <div class="about" id="about">
+            <div class="container">
+                <div class="main-heading">
+                    <h2>About Us</h2>
+                    <p>
+                        Curabitur arcu erat, accumsan id imperdiet et, porttitor
+                        at sem
+                    </p>
+                </div>
+                <div class="content">
+                    <div class="box box-right">
+                        <img src="images/your name-01.jpg" alt="" />
+                        <div class="text">
+                            <h3>Photography</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur <br />
+                                adipisicing elit. Accusantium vero est <br />
+                                solutarepudiandaefugit voluptatem libero <br />
+                                fugiat,commodiratione quidem saepesuscipit.
+                                <br />
+                                Delectus providentmolestiae nobis,a aut aliquid.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="box box-left">
+                        <img src="images/your name-02.jpg" alt="" />
+                        <div class="text">
+                            <h3>Photography</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur <br />
+                                adipisicing elit. Accusantium vero est <br />
+                                solutarepudiandaefugit voluptatem libero <br />
+                                fugiat,commodiratione quidem saepesuscipit.
+                                <br />
+                                Delectus providentmolestiae nobis,a aut aliquid.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="box box-right">
+                        <img src="images/yuor name-04.jpg" alt="" />
+                        <div class="text">
+                            <h3>Photography</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur <br />
+                                adipisicing elit. Accusantium vero est <br />
+                                solutarepudiandaefugit voluptatem libero <br />
+                                fugiat,commodiratione quidem saepesuscipit.
+                                <br />
+                                Delectus providentmolestiae nobis,a aut aliquid.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="box box-left">
+                        <img src="images/your name-03.jpg" alt="" />
+                        <div class="text">
+                            <h3>Photography</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur <br />
+                                adipisicing elit. Accusantium vero est <br />
+                                solutarepudiandaefugit voluptatem libero <br />
+                                fugiat,commodiratione quidem saepesuscipit.
+                                <br />
+                                Delectus providentmolestiae nobis,a aut aliquid.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End About Us -->
+        <!-- Start Amazing Team -->
+        <div class="amazing">
+            <div class="container">
+                <div class="main-heading">
+                    <h2>Our Amazing Team</h2>
+                    <p>
+                        Curabitur arcu erat, accumsan id imperdiet et, porttitor
+                        at sem
+                    </p>
+                </div>
+                <div class="content">
+                    <div class="box">
+                        <img src="images/levi.jpg" alt="levi" />
+                        <h3>Levi Ackerman</h3>
+                        <p>chef</p>
+                        <div class="icons">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/midoriya.jpg" alt="levi" />
+                        <h3>midoriya</h3>
+                        <p>Super Powerful</p>
+                        <div class="icons">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/minato.jpg" alt="levi" />
+                        <h3>Minato</h3>
+                        <p>Super Speed</p>
+                        <div class="icons">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Accusantium vero est solutarepudiandaefugit voluptatem
+                    libero fugiat,commodiratione quidem
+                </p>
+            </div>
+        </div>
+        <!-- End Amazing Team -->
+        <!-- Start Contact US -->
+        <div class="contact" id="contact">
+            <div class="container">
+                <div class="main-heading">
+                    <h2>Contact Us</h2>
+                    <p>
+                        Curabitur arcu erat, accumsan id imperdiet et, porttitor
+                        at sem
+                    </p>
+                </div>
+                <form action="#">
+                    <input
+                        class="main-input"
+                        type="text"
+                        name="Name"
+                        placeholder="Name"
+                    />
+                    <input
+                        class="main-input"
+                        type="email"
+                        name="Email"
+                        placeholder="Email"
+                    />
+                    <input
+                        class="main-input"
+                        type="password"
+                        name="Password"
+                        placeholder="Password"
+                    />
+                    <textarea
+                        class="main-input"
+                        name="Message"
+                        placeholder="Message"
+                    ></textarea>
+                    <input type="submit" value="Send" />
+                </form>
+            </div>
+        </div>
+        <!-- End Contact Us -->
+        <!-- Start Footer -->
+        <footer>
+            <div class="container">
+                <p>&copy; 2021 <span>basem</span> All Right Rederved</p>
+                <div class="icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </footer>
+        <!-- End Footer -->
+        <!--Start Button Up -->
+        <button class="btn-up"><i class="fas fa-angle-up"></i></button>
+        <!--End Button Up -->
+        <!-- Js -->
+        <script src="js/yellow.js"></script>
+    </body>
+</html>
